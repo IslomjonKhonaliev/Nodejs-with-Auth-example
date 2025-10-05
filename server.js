@@ -1,3 +1,6 @@
+console.log("Server is starting...");
+
+
 require("dotenv").config();
 const express = require("express");
 const connectToDB = require("./database/db");
